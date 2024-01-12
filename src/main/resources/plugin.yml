@@ -1,0 +1,15 @@
+name: report
+version: '${project.version}'
+main: org.hotamachi.report.Report
+api-version: '1.20'
+load: STARTUP
+permissions:
+  report.reload:
+    description: 設定ファイルを再読み込みします。
+    default: op
+
+commands:
+  report:
+    description: 不正行為を報告する
+    usage: /report <message>
+    aliases: [rep]

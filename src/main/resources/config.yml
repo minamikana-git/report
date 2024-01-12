@@ -1,0 +1,3 @@
+discord:
+  token: "ここにあなたのDiscord Botのトークン"
+  channel-id: "ここにあなたのDiscordチャンネルID"
